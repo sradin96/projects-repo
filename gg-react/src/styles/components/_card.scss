@@ -1,0 +1,94 @@
+.card {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.card__delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translate(25%, -25%);
+    z-index: 2;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        fill: $grey-dark;
+        width: 12px;
+    }
+}
+
+.card__img {
+    width: 98px;
+    height: 98px;
+}
+
+.card__container {
+    display: flex;
+    background-color: rgba($grey-dark, .7);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card__name {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: $white;
+    text-overflow: ellipsis;
+    line-clamp: 1;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card__holder {
+    width: calc(100% - 98px);
+    padding: 10px;
+}
+
+.card__holder-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card__quantity {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card__small {
+    color: $white;
+    font-size: 14px;
+}
+
+.card__price {
+    color: $yellow;
+    font-weight: 700;
+}
+
+.card__button {
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    border: 2px solid $yellow;
+    border-radius: 50%;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__number {
+    display: inline-block;
+    margin: 0 10px;
+    color: $white;
+    font-size: 16px;
+}

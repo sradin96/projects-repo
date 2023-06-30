@@ -1,0 +1,61 @@
+main {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background-color: $grey-dark;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    margin-bottom: 320px;
+
+    transition: background-color $transition;
+}
+
+.light-mode {
+    background-color: $grey-light;
+
+    .section-title {
+        color: $grey-dark;
+    }
+
+    .game-card {
+        background-color: rgba($grey-dark, .9);
+    }
+
+    .search__form {
+        svg {
+            fill: $white
+        }
+    }
+
+    .search__input {
+        background-color: $grey-dark;
+        color: $white;
+
+        &::placeholder {
+            color: $white;
+        }
+    }
+}
+
+.wrap {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.has-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sr-only {
+    height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}

@@ -1,0 +1,17 @@
+.main {
+    overflow: hidden;
+    width: 100%;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.has-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

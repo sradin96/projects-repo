@@ -1,0 +1,23 @@
+.banner {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__holder {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    mix-blend-mode: difference;
+}
+
+.banner__title {
+    color: $white;
+    margin-bottom: 20px;
+}
+
+.banner__text {
+    color: $white;
+}

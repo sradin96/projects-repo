@@ -1,0 +1,111 @@
+.banner {
+    height: 100%;
+    margin-bottom: 40px;
+    position: relative;
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        height: 100%;
+        width: fit-content;
+    }
+
+    .swiper-slide {
+        position: relative;
+    }
+
+    .banner__swiper-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba($grey-dark, .7);
+        backdrop-filter: blur(20px);
+        padding: 4px;
+        border-radius: 50%;
+
+        svg {
+            width: 38px;
+            fill: $white;
+        }
+
+        &:hover {
+            svg {
+                fill: $yellow;
+            }
+        }
+    }
+
+    .swiper-prev {
+        left: 9%;
+    }
+
+    .swiper-next {
+        right: 9%;
+    }
+
+    .swiper-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translate(-50%, 0);
+    }
+
+    .swiper-pagination-bullet {
+        width: 100px;
+        height: 8px;
+        border-radius: 4px;
+        margin: 0 8px !important;
+        display: block;
+        background: $white !important;
+        cursor: pointer;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: $yellow !important;
+    }
+}
+
+.game-slide {
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.game-slide__content {
+    position: absolute;
+    justify-content: flex-start;
+    z-index: 2;
+    left: 5%;
+    bottom: 5%;
+    background-color: rgba($grey-dark, .6);
+    border-radius: 12px;
+    box-shadow: 4px 4px 30px rgba($grey-dark, .5);
+    min-width: 200px;
+    min-height: auto;
+    backdrop-filter: blur(20px);
+    padding: 15px 30px;
+}
+
+
+.game-slide__name {
+    color: $white;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+.game-slide__genre {
+    color: $yellow;
+    font-size: 14px;
+}

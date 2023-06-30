@@ -1,0 +1,16 @@
+@import './base/reset';
+@import './base/variables';
+@import './base/typography';
+@import './base/layout';
+
+
+@import './modules/header';
+@import './modules/footer';
+
+@import './modules/banner';
+@import './modules/filters';
+@import './modules/movies';
+@import './modules/pagination';
+@import './modules/popup';
+@import './modules/saved-movies';
+@import './modules/animes';

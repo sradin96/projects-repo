@@ -1,0 +1,25 @@
+.search {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.search__form {
+    position: relative;
+
+    svg {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 16px;
+        fill: $grey-dark;
+    }
+}
+
+.search__input {
+    font-size: 16px;
+    padding: 7px 35px 7px 15px;
+    border-radius: 12px;
+    width: 220px;
+}

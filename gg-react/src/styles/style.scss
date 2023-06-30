@@ -1,0 +1,26 @@
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/typography';
+@import 'base/layout';
+@import 'base/buttons';
+
+@import 'shared/header';
+@import 'shared/footer';
+
+@import 'components/banner';
+@import 'components/forms';
+@import 'components/cart';
+@import 'components/card';
+@import 'components/game-card';
+@import 'components/page-intro';
+@import 'components/game-holder';
+@import 'components/search';
+@import 'components/filters';
+@import 'components/pagination';
+@import 'components/cart-popup';
+@import 'components/search-block';
+@import 'components/no-content';
+@import 'components/not-found';
+@import 'components/game-info';
+@import 'components/loader';
+@import 'components/new-item';

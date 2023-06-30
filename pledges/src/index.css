@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+@font-face {
+  font-family: Gotham;
+  src: url('./assets/fonts/Gotham-Bold.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('./assets/fonts/Gotham-Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('./assets/fonts/GothamMedium.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('./assets/fonts/Gotham-Black.otf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Buttergone;
+  src: url('./assets/fonts/Buttergone.ttf')
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Gotham, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.banner__container {
+  position: relative;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-family: Gotham, sans-serif;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.tabButton {
+  margin: 20px;
+}
+
+.active-tab {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.active-form-tab {
+  background-color: #000 !important;
+  color: #fff !important;
+}

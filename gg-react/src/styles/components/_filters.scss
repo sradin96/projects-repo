@@ -1,0 +1,32 @@
+.filters {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.filters__form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.filters__select-block {
+    margin-left: 20px;
+    position: relative;
+}
+
+.filters__select-label {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-45%);
+    pointer-events: none;
+    svg {
+        width: 20px;
+    }
+}
+
+.filters__select {
+    padding: 5px 50px 5px 15px;
+    border-radius: 12px;
+    appearance: none;
+}
